@@ -1,1 +1,290 @@
 /* Compile your LESS file! */
+/* http://meyerweb.com/eric/tools/css/reset/ 
+   v2.0 | 20110126
+   License: none (public domain)
+*/
+html,
+body,
+div,
+span,
+applet,
+object,
+iframe,
+h1,
+h2,
+h3,
+h4,
+h5,
+h6,
+p,
+blockquote,
+pre,
+a,
+abbr,
+acronym,
+address,
+big,
+cite,
+code,
+del,
+dfn,
+em,
+img,
+ins,
+kbd,
+q,
+s,
+samp,
+small,
+strike,
+strong,
+sub,
+sup,
+tt,
+var,
+b,
+u,
+i,
+center,
+dl,
+dt,
+dd,
+ol,
+ul,
+li,
+fieldset,
+form,
+label,
+legend,
+table,
+caption,
+tbody,
+tfoot,
+thead,
+tr,
+th,
+td,
+article,
+aside,
+canvas,
+details,
+embed,
+figure,
+figcaption,
+footer,
+header,
+hgroup,
+menu,
+nav,
+output,
+ruby,
+section,
+summary,
+time,
+mark,
+audio,
+video {
+  margin: 0;
+  padding: 0;
+  border: 0;
+  font-size: 100%;
+  font: inherit;
+  vertical-align: baseline;
+}
+/* HTML5 display-role reset for older browsers */
+article,
+aside,
+details,
+figcaption,
+figure,
+footer,
+header,
+hgroup,
+menu,
+nav,
+section {
+  display: block;
+}
+body {
+  line-height: 1;
+}
+ol,
+ul {
+  list-style: none;
+}
+blockquote,
+q {
+  quotes: none;
+}
+blockquote:before,
+blockquote:after,
+q:before,
+q:after {
+  content: "";
+  content: none;
+}
+table {
+  border-collapse: collapse;
+  border-spacing: 0;
+}
+/* Set every element's box-sizing to border-box */
+* {
+  box-sizing: border-box;
+}
+html,
+body {
+  height: 100%;
+}
+.seventypc {
+  margin-left: 10%;
+  width: 55%;
+}
+.thirtypc {
+  margin-right: 10%;
+  width: 25%;
+  border-top-color: #0e0e10;
+}
+.hundredpc {
+  margin-left: 10%;
+  width: 80%;
+}
+.zeropc {
+  display: none;
+}
+body {
+  background-color: #ededed;
+  display: flex;
+}
+@media (max-width: 600px) {
+  body {
+    flex-direction: column;
+  }
+}
+body .left-panel {
+  padding: 1rem 0;
+  align-self: flex-start;
+  width: 30%;
+  background-color: #1e3776;
+}
+@media (max-width: 600px) {
+  body .left-panel {
+    width: 100%;
+  }
+}
+body .left-panel * {
+  color: #ebebeb;
+  padding: 0.3rem 10%;
+}
+body .left-panel h1 {
+  font-size: 3rem;
+}
+body .left-panel h2 {
+  margin-top: 0.8rem;
+  background-color: #14295e;
+  font-size: 1.5rem;
+}
+body .left-panel h3 {
+  font-size: 1.3rem;
+}
+body .left-panel h4 {
+  font-size: 1rem;
+  font-weight: bold;
+}
+body .left-panel p {
+  font-size: 1rem;
+}
+body .left-panel p span {
+  display: inline-block;
+  padding: 0;
+}
+body .left-panel div {
+  display: inline-flex;
+  margin: 0;
+  border-top: 0.5rem solid white;
+}
+body .left-panel .leadership {
+  margin-left: 10%;
+  width: 55%;
+}
+body .left-panel .leadership-end {
+  margin-right: 10%;
+  width: 25%;
+  border-top-color: #14295e;
+}
+body .left-panel .collaboration {
+  margin-left: 10%;
+  width: 80%;
+}
+body .left-panel .collaboration-end {
+  display: none;
+}
+body .left-panel .javascript {
+  margin-left: 10%;
+  width: 80%;
+}
+body .left-panel .javascript-end {
+  display: none;
+}
+body .left-panel .photoshop {
+  margin-left: 10%;
+  width: 55%;
+}
+body .left-panel .photoshop-end {
+  margin-right: 10%;
+  width: 25%;
+  border-top-color: #14295e;
+}
+body .left-panel .html {
+  margin-left: 10%;
+  width: 80%;
+}
+body .left-panel .html-end {
+  display: none;
+}
+body .left-panel .css {
+  margin-left: 10%;
+  width: 80%;
+}
+body .left-panel .css-end {
+  display: none;
+}
+body .left-panel .vietnamese {
+  margin-left: 10%;
+  width: 80%;
+}
+body .left-panel .vietnamese-end {
+  display: none;
+}
+body .right-panel {
+  padding: 1rem 0;
+  width: 70%;
+  align-self: flex-start;
+}
+@media (max-width: 600px) {
+  body .right-panel {
+    width: 100%;
+  }
+}
+body .right-panel p {
+  padding: 0.3rem 4% 1rem 4%;
+}
+body .right-panel h2 {
+  color: #14295e;
+  font-size: 1.3rem;
+  padding: 0.4rem 4%;
+  font-weight: bold;
+}
+body .right-panel hr {
+  border-bottom: 1px solid gray;
+  margin: 0 4%;
+}
+body .right-panel .box {
+  padding: 0.5rem 4% 1rem 4%;
+  display: flex;
+}
+body .right-panel .box .time {
+  width: 25%;
+}
+body .right-panel .box .info {
+  width: 75%;
+}
